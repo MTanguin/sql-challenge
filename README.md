@@ -1,4 +1,5 @@
 # sql-challenge
+
 Background
 
 As the new data engineer at Pewlett Hackard (a fictional company), the first major task is to do a research project about people whom the company employed during the 1980s and 1990s, using six CSV files from employee database during this period.
