@@ -2,6 +2,7 @@
 Background
 
 As the new data engineer at Pewlett Hackard (a fictional company), the first major task is to do a research project about people whom the company employed during the 1980s and 1990s, using six CSV files from employee database during this period.
+
 Aim of the study
 •   To be able to design the tables that hold the data from the CSV files, import the CSV files into a SQL database, and answer questions about the data.
 •   To be able to perform data modeling, data engineering, and data analysis
@@ -36,7 +37,7 @@ The titles table stores information about the different job titles that employee
 The employees table stores information about individual employees. It has a primary key emp_no, a foreign key emp_title_id that references the emp_title_id column in the titles table, and information about the employees’ name, birth date, sex, and hire date.
 The salaries table  store information about the salaries of individual employees. It has a foreign key emp_no that references the emp_no column in the employees table and a column salary that stores the salary of the employee.
 The dept_emp junction table store information about which employees belong to which departments. It has a foreign key emp_no that references the emp_no column in the employees table and a foreign key dept_no that references the dept_no column in the departments table.
-The dept_manager is also a junction table store information about which employees are the managers of which departments. It has a foreign key dept_no that references the dept_no column in the departments table and a foreign key emp_no that references the emp_no column in the employees table.
+The dept_manager is also a junction, table store information about which employees are the managers of which departments. It has a foreign key dept_no that references the dept_no column in the departments table and a foreign key emp_no that references the emp_no column in the employees table.
 
 The following relationships exist:
 One-to-many relationship between "departments" and "employees" - One department can have many employees, but an employee can only belong to one department. This relationship is established through the "dept_emp" table, which has a foreign key "dept_no" that refers to the primary key "dept_no" in the "departments" table.
