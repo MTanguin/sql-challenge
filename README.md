@@ -12,10 +12,12 @@ Aim of the study
 Methods 
 
 1.  Data Modeling
+
 •   Inspect the CSV files
 •   Sketch an Entity Relationship Diagram of the tables using tool like QuickDBD.
 
 2.  Data Engineering
+
 •   Use the provided information to create a table schema for each of the six CSV files. 
 •   Specify the data types, primary keys, foreign keys, and other constraints.
 •   For the primary keys, verify that the column is unique. Otherwise, create a composite key which takes     two primary keys to uniquely identify a row.
@@ -23,6 +25,7 @@ Methods
 •   Import each CSV file into its corresponding SQL table.
 
 3.  Data Analysis
+
 •   List the employee number, last name, first name, sex, and salary of each employee.
 •   List the first name, last name, and hire date for the employees who were hired in 1986.
 •   List the manager of each department along with their department number, department name, employee number, last name, and first name.
