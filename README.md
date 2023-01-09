@@ -4,6 +4,7 @@ Background
 As the new data engineer at Pewlett Hackard (a fictional company), the first major task is to do a research project about people whom the company employed during the 1980s and 1990s, using six CSV files from employee database during this period.
 
 Aim of the study
+
 •   To be able to design the tables that hold the data from the CSV files, import the CSV files into a SQL database, and answer questions about the data.
 •   To be able to perform data modeling, data engineering, and data analysis
 
