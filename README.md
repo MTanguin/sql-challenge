@@ -1,22 +1,22 @@
-# sql-challenge
+### "Unlocking Insights from Pewlett Hackard's Employee Database: Exploring the Workforce of the 1980s and 1990s"
 
-Background
+# Background
 
 As the new data engineer at Pewlett Hackard (a fictional company), the first major task is to do a research project about people whom the company employed during the 1980s and 1990s, using six CSV files from employee database during this period.
 
-Aim of the study
+# Aim of the study
 
 •   To be able to design the tables that hold the data from the CSV files, import the CSV files into a SQL database, and answer questions about the data.
 •   To be able to perform data modeling, data engineering, and data analysis
 
-Methods 
+# Methods 
 
-1.  Data Modeling
+1.  ### Data Modeling
 
 •   Inspect the CSV files
 •   Sketch an Entity Relationship Diagram of the tables using tool like QuickDBD.
 
-2.  Data Engineering
+2.  ### Data Engineering
 
 •   Use the provided information to create a table schema for each of the six CSV files. 
 •   Specify the data types, primary keys, foreign keys, and other constraints.
@@ -24,7 +24,7 @@ Methods
 •   Create the tables in the correct order to handle the foreign keys.
 •   Import each CSV file into its corresponding SQL table.
 
-3.  Data Analysis
+3.  ### Data Analysis
 
 •   List the employee number, last name, first name, sex, and salary of each employee.
 •   List the first name, last name, and hire date for the employees who were hired in 1986.
@@ -35,7 +35,9 @@ Methods
 •   List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 •   List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-Overview & Analysis
+
+
+# Overview & Analysis
 
 The departments table stores information about different departments in the company. It has a primary key dept_no and a name for the department dept_name.
 The titles table stores information about the different job titles that employees held. It has a primary key emp_title_id and a column title that stores the name of the job title.
@@ -53,12 +55,9 @@ One-to-one relationship between "departments" and "employees" - A department can
 
 For the analysis, please refer to Employees_queries.sql
 
-Submission Requirements:
-•   Create an image file of your ERD. See ERD_EMPLOYEES_1980s&1990s.png
-•   Create a .sql file of your table schemata. See Employees_table_schemas.sql
-•   Create a .sql file of your queries. See Employees_queries.sql
-•   (Optional) Create a Jupyter notebook of the bonus analysis. (Note: there will be no extra points for completing this.)
-•   Ensure that your repository has regular commits and a thorough README.md file
+![ERD_EMPLOYEES_1980s 1990s](https://github.com/MTanguin/sql-challenge/assets/114210481/b1431328-5764-4c40-b149-8cbd2d999981)
+
+
 
 Sources: https://courses.bootcampspot.com/courses/2799/assignments/42951?module_item_id=803188
 https://app.quickdatabasediagrams.com/#/d/vJx65c
