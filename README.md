@@ -1,4 +1,4 @@
-### "Unlocking Insights from Pewlett Hackard's Employee Database: Exploring the Workforce of the 1980s and 1990s"
+#### "Unlocking Insights from Pewlett Hackard's Employee Database: Exploring the Workforce of the 1980s and 1990s"
 
 # Background
 
