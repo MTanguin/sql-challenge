@@ -55,6 +55,8 @@ One-to-one relationship between "departments" and "employees" - A department can
 
 For the analysis, please refer to Employees_queries.sql
 
+### ERD Diagram
+
 ![ERD_EMPLOYEES_1980s 1990s](https://github.com/MTanguin/sql-challenge/assets/114210481/b1431328-5764-4c40-b149-8cbd2d999981)
 
 
