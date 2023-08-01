@@ -68,7 +68,7 @@ For the analysis, please refer to Employees_queries.sql
 
 
 
-### Source:
+### Sources:
 https://courses.bootcampspot.com/courses/2799/assignments/42951?module_item_id=803188
 https://app.quickdatabasediagrams.com/#/d/vJx65c
 
